@@ -1,6 +1,6 @@
 # 🎨 Design Skills Hub
 
-A collection of powerful Claude Code skills for designers and developers to streamline brand design system creation and management.
+A comprehensive collection of 9 Claude Code skills for designers and developers to create, manage, and maintain professional brand design systems.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skills-blue)](https://docs.anthropic.com/claude/docs)
@@ -11,23 +11,35 @@ A collection of powerful Claude Code skills for designers and developers to stre
 
 **Option 1: Direct install from GitHub (recommended)**
 
-Install all skills with one command:
+Install all 9 skills with one command:
 ```bash
 claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/brand-generate && \
 claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/brand-visual && \
-claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/branding
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/branding && \
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/design-tokens-editor && \
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/brand-colors-palette && \
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/design-system-preview && \
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/brand-compare && \
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/design-system-export && \
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/brand-audit
 ```
 
 Or install individual skills:
 ```bash
-# Brand design system generator
+# Core Brand Skills
 claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/brand-generate
-
-# Visual identity guidelines
 claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/brand-visual
-
-# Brand strategy and positioning
 claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/branding
+
+# Design System Tools
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/design-tokens-editor
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/brand-colors-palette
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/design-system-preview
+
+# Analysis & Export
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/brand-compare
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/design-system-export
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/brand-audit
 ```
 
 **Option 2: Clone and install locally**
@@ -126,28 +138,120 @@ Define brand strategy, purpose, values, positioning, storytelling, and voice.
 - Align team on brand narrative
 
 ### 4. Design Tokens Editor
-**Status:** 🚧 Coming Soon
+**Status:** ✅ Ready
 **Command:** `/design-tokens-editor`
 
-Edit and update existing design tokens with real-time preview.
+Edit existing brand design tokens and regenerate the complete design system.
+
+**Features:**
+- ✏️ Interactive editing of colors, typography, spacing
+- ✅ Validation and accessibility checks
+- 🔄 Automatic design system regeneration
+- 💾 Backup before changes
+- 👁️ Preview changes before applying
+
+**Use Cases:**
+- Update brand colors for existing systems
+- Change typography or spacing scales
+- Fine-tune tokens based on feedback
+- Fix accessibility issues
 
 ### 5. Brand Colors Palette
-**Status:** 🚧 Coming Soon
+**Status:** ✅ Ready
 **Command:** `/brand-colors-palette`
 
-Generate complete color palettes from a single brand color with accessibility validation.
+Generate professional color palettes from a single brand color.
 
-### 6. Brand Compare
-**Status:** 🚧 Coming Soon
+**Features:**
+- 🎨 Generate 9 shades (50-900) from any color
+- 🌈 Smart color relationships (complementary, analogous, triadic)
+- ♿ WCAG AA/AAA accessibility validation
+- 📊 Multiple export formats (JSON, CSS, Tailwind)
+- 🖼️ HTML preview with swatches
+
+**Use Cases:**
+- Create full palette from brand color
+- Find complementary/accent colors
+- Validate color accessibility
+- Export to different platforms
+
+### 6. Design System Preview
+**Status:** ✅ Ready
+**Command:** `/design-system-preview`
+
+Quick preview and comparison of design systems.
+
+**Features:**
+- 🌐 Open example.html in browser
+- 📱 Responsive preview (mobile/tablet/desktop)
+- 🔄 Side-by-side brand comparison
+- 📸 Screenshot and export capabilities
+- 🌓 Dark mode toggle
+
+**Use Cases:**
+- Preview new design systems
+- Compare multiple brands visually
+- Take screenshots for documentation
+- Share design system demos
+
+### 7. Brand Compare
+**Status:** ✅ Ready
 **Command:** `/brand-compare`
 
-Compare multiple brand design systems side-by-side.
+Compare multiple brand design systems and identify differences.
 
-### 7. Design System Export
-**Status:** 🚧 Coming Soon
+**Features:**
+- 🔍 Token-level diff view
+- 📊 Visual comparison charts
+- ♿ Accessibility comparison
+- 📄 Generate comparison reports (MD/HTML)
+- 🎯 Identify inconsistencies
+
+**Use Cases:**
+- Compare before/after updates
+- Audit multi-brand consistency
+- Document design system changes
+- Migration planning
+
+### 8. Design System Export
+**Status:** ✅ Ready
 **Command:** `/design-system-export`
 
-Export design systems to Figma, Sketch, or other formats.
+Export design systems to multiple formats and platforms.
+
+**Features:**
+- 🎨 Figma Tokens format
+- ✏️ Sketch variables
+- 📦 Style Dictionary
+- 🎯 Tailwind CSS config
+- 💾 CSS/SCSS variables, JSON/YAML
+- 📱 iOS/Android platform-specific
+
+**Use Cases:**
+- Export to design tools (Figma/Sketch)
+- Generate platform-specific tokens
+- Create Style Dictionary configs
+- Batch export to multiple formats
+
+### 9. Brand Audit
+**Status:** ✅ Ready
+**Command:** `/brand-audit`
+
+Audit design system quality and accessibility compliance.
+
+**Features:**
+- ♿ WCAG 2.1 AA/AAA compliance checks
+- 🎨 Color contrast validation
+- 🏷️ Naming consistency verification
+- 🔍 Missing tokens detection
+- 🛠️ Automated fixes with suggestions
+- 📊 Detailed audit reports
+
+**Use Cases:**
+- Ensure accessibility compliance
+- Find design system gaps
+- Validate token naming
+- Generate quality reports
 
 ## 🎯 Use Cases
 
