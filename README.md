@@ -1,9 +1,60 @@
 # 🎨 Design Skills Hub
 
-A comprehensive collection of 9 Claude Code skills for designers and developers to create, manage, and maintain professional brand design systems.
+A comprehensive collection of **9 Claude Code skills** for designers and developers to create, manage, and maintain professional brand design systems—covering the complete design system lifecycle from creation to deployment.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skills-blue)](https://docs.anthropic.com/claude/docs)
+[![Skills: 9](https://img.shields.io/badge/Skills-9-success)](https://github.com/irismaker/design-skills-hub/tree/main/skills)
+
+## 🏗️ Framework Overview
+
+Design Skills Hub provides a **complete design system workflow** organized into three categories:
+
+### 🎯 Core Brand Skills (3 skills)
+
+Create and define your brand foundation
+
+- **brand-generate** - Generate complete design systems with tokens, CSS, components
+- **brand-visual** - Define visual identity (typography, colors, spacing, logo guidelines)
+- **branding** - Create brand strategy (purpose, values, positioning, voice)
+
+### 🛠️ Design System Tools (3 skills)
+
+Edit, enhance, and visualize your design systems
+
+- **design-tokens-editor** - Edit existing tokens and regenerate systems
+- **brand-colors-palette** - Generate color palettes with accessibility validation
+- **design-system-preview** - Preview and compare design systems visually
+
+### 📊 Analysis & Export (3 skills)
+
+Validate, compare, and distribute your design systems
+
+- **brand-compare** - Compare multiple brand systems and identify differences
+- **design-system-export** - Export to Figma, Sketch, Tailwind, and more
+- **brand-audit** - Audit quality, accessibility, and consistency
+
+## 🔄 Complete Workflow
+
+```
+1. CREATE           2. REFINE          3. VALIDATE        4. DEPLOY
+   ↓                   ↓                  ↓                  ↓
+brand-generate → design-tokens-    → brand-audit      → design-system-
+brand-visual     editor             → brand-compare      export
+branding         brand-colors-
+                 palette
+                 design-system-
+                 preview
+```
+
+## ✨ Why Design Skills Hub?
+
+- **🚀 10x Faster** - Create design systems in minutes, not weeks
+- **♿ Accessibility Built-in** - WCAG AA/AAA validation by default
+- **🎨 Professional Quality** - Industry-standard naming and structure
+- **🔧 Full Lifecycle** - From creation to deployment, all tools included
+- **📦 Framework Agnostic** - Export to any platform (Figma, Sketch, web, mobile)
+- **🤖 AI-Powered** - Intelligent suggestions and automation via Claude
 
 ## 🚀 Quick Start
 
@@ -63,9 +114,28 @@ Or naturally in conversation:
 "Create a design system for Aurora Labs with primary color #6366F1"
 "Define brand visual identity with typography and color palette"
 "Help me create brand strategy and positioning"
+"Edit my brand colors to use purple instead of blue"
+"Generate a complementary color palette for #6366F1"
+"Export my design system to Figma tokens"
 ```
 
-## 📦 Available Skills
+## 📦 Skills Overview
+
+Quick reference table for all 9 skills:
+
+| Skill | Category | Command | Purpose |
+| ----- | -------- | ------- | ------- |
+| **brand-generate** | 🎯 Core | `/brand-generate` | Generate complete design systems |
+| **brand-visual** | 🎯 Core | `/brand-visual-generator` | Define visual identity guidelines |
+| **branding** | 🎯 Core | `/branding` | Create brand strategy & positioning |
+| **design-tokens-editor** | 🛠️ Tools | `/design-tokens-editor` | Edit existing design tokens |
+| **brand-colors-palette** | 🛠️ Tools | `/brand-colors-palette` | Generate color palettes |
+| **design-system-preview** | 🛠️ Tools | `/design-system-preview` | Preview & compare systems |
+| **brand-compare** | 📊 Analysis | `/brand-compare` | Compare multiple brands |
+| **design-system-export** | 📊 Analysis | `/design-system-export` | Export to multiple formats |
+| **brand-audit** | 📊 Analysis | `/brand-audit` | Audit quality & accessibility |
+
+## 📋 Detailed Skills Documentation
 
 ### 1. Brand Generate
 **Status:** ✅ Ready
