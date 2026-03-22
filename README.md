@@ -26,11 +26,15 @@ claude skill install ./skills/brand-generate
 After installation, use skills in Claude Code:
 ```bash
 /brand-generate
+/brand-visual-generator
+/branding
 ```
 
 Or naturally in conversation:
 ```
 "Create a design system for Aurora Labs with primary color #6366F1"
+"Define brand visual identity with typography and color palette"
+"Help me create brand strategy and positioning"
 ```
 
 ## 📦 Available Skills
@@ -67,25 +71,63 @@ User: Create a design system for TechCorp
 └── README.md
 ```
 
-### 2. Design Tokens Editor
+### 2. Brand Visual Identity
+**Status:** ✅ Ready
+**Command:** `/brand-visual-generator`
+
+Define and audit visual identity including typography, colors, spacing, and logo usage guidelines.
+
+**Features:**
+- 🎨 Typography system (display + body font pairing)
+- 🌈 Color palette structure with accessibility validation
+- 📏 Spacing and grid systems
+- 🎯 Logo usage guidelines
+- 📋 Industry-specific color recommendations
+
+**Use Cases:**
+- Create comprehensive brand style guides
+- Audit existing visual identity for consistency
+- Define design tokens for implementation
+- Ensure brand compliance across touchpoints
+
+### 3. Branding Strategy
+**Status:** ✅ Ready
+**Command:** `/branding`
+
+Define brand strategy, purpose, values, positioning, storytelling, and voice.
+
+**Features:**
+- 🎯 Brand purpose and values definition
+- 📖 Brand storytelling and origin story
+- 🗣️ Brand voice and tone guidelines
+- 🎭 Brand archetypes and personality
+- 📍 Positioning and differentiation strategy
+
+**Use Cases:**
+- Define brand strategy for new products
+- Audit brand consistency across channels
+- Create brand messaging guidelines
+- Align team on brand narrative
+
+### 4. Design Tokens Editor
 **Status:** 🚧 Coming Soon
 **Command:** `/design-tokens-editor`
 
 Edit and update existing design tokens with real-time preview.
 
-### 3. Brand Colors Palette
+### 5. Brand Colors Palette
 **Status:** 🚧 Coming Soon
 **Command:** `/brand-colors-palette`
 
 Generate complete color palettes from a single brand color with accessibility validation.
 
-### 4. Brand Compare
+### 6. Brand Compare
 **Status:** 🚧 Coming Soon
 **Command:** `/brand-compare`
 
 Compare multiple brand design systems side-by-side.
 
-### 5. Design System Export
+### 7. Design System Export
 **Status:** 🚧 Coming Soon
 **Command:** `/design-system-export`
 
@@ -137,9 +179,9 @@ skills/
 ## 🌟 Examples
 
 See the [examples/](./examples/) directory for real-world usage examples:
-- [Startup Branding](./examples/startup-branding/)
-- [Product Redesign](./examples/product-redesign/)
-- [Multi-Brand System](./examples/multi-brand/)
+- [Startup Branding](./examples/startup-branding/) - Generate complete design system for a startup
+- [Brand Visual Identity](./examples/brand-visual-identity/) - Create visual guidelines for an established product
+- [Brand Strategy](./examples/brand-strategy/) - Define brand positioning and messaging for a new product
 
 ## 📝 License
 
