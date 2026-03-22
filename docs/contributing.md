@@ -17,7 +17,7 @@ Thank you for your interest in contributing! This document provides guidelines f
 ```bash
 # Fork the repository on GitHub
 # Then clone your fork
-git clone https://github.com/YOUR_USERNAME/design-skills-hub.git
+git clone https://github.com/irismaker/design-skills-hub.git
 cd design-skills-hub
 ```
 
@@ -130,7 +130,7 @@ Then create a Pull Request on GitHub with:
 
 ## 🐛 Reporting Bugs
 
-Use the [Issue Tracker](https://github.com/YOUR_USERNAME/design-skills-hub/issues) with:
+Use the [Issue Tracker](https://github.com/irismaker/design-skills-hub/issues) with:
 
 ```markdown
 **Skill Name:** [which skill]
@@ -231,7 +231,7 @@ Contributors will be:
 
 ## 📞 Questions?
 
-- Open a [Discussion](https://github.com/YOUR_USERNAME/design-skills-hub/discussions)
+- Open a [Discussion](https://github.com/irismaker/design-skills-hub/discussions)
 - Comment on related issues
 - Reach out to maintainers
 

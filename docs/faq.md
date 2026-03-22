@@ -27,7 +27,7 @@ Visit [Claude Code website](https://www.anthropic.com/claude/code) for installat
 
 ```bash
 # Install all skills
-git clone https://github.com/YOUR_USERNAME/design-skills-hub.git
+git clone https://github.com/irismaker/design-skills-hub.git
 cd design-skills-hub
 ./install.sh
 
@@ -168,7 +168,7 @@ See [CONTRIBUTING.md](./contributing.md) for details.
 
 ### I found a bug, what should I do?
 
-[Open an issue](https://github.com/YOUR_USERNAME/design-skills-hub/issues) with:
+[Open an issue](https://github.com/irismaker/design-skills-hub/issues) with:
 - Skill name
 - Claude Code version
 - Steps to reproduce
@@ -176,7 +176,7 @@ See [CONTRIBUTING.md](./contributing.md) for details.
 
 ### Can I request a new skill?
 
-Yes! [Open a discussion](https://github.com/YOUR_USERNAME/design-skills-hub/discussions) describing your use case.
+Yes! [Open a discussion](https://github.com/irismaker/design-skills-hub/discussions) describing your use case.
 
 ## Licensing & Usage
 
@@ -197,8 +197,8 @@ Yes! You own all generated output.
 ### Where can I get help?
 
 1. Check this FAQ
-2. Search [existing issues](https://github.com/YOUR_USERNAME/design-skills-hub/issues)
-3. Open a [discussion](https://github.com/YOUR_USERNAME/design-skills-hub/discussions)
+2. Search [existing issues](https://github.com/irismaker/design-skills-hub/issues)
+3. Open a [discussion](https://github.com/irismaker/design-skills-hub/discussions)
 4. Join our community (link coming soon)
 
 ### How often is this updated?
@@ -211,4 +211,4 @@ Yes! Check [ROADMAP.md](./roadmap.md) for planned features.
 
 ---
 
-**Still have questions?** [Open a discussion](https://github.com/YOUR_USERNAME/design-skills-hub/discussions)
+**Still have questions?** [Open a discussion](https://github.com/irismaker/design-skills-hub/discussions)

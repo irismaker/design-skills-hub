@@ -11,7 +11,7 @@ A collection of powerful Claude Code skills for designers and developers to stre
 
 Install all skills at once:
 ```bash
-git clone https://github.com/YOUR_USERNAME/design-skills-hub.git
+git clone https://github.com/irismaker/design-skills-hub.git
 cd design-skills-hub
 ./install.sh
 ```
@@ -153,8 +153,8 @@ MIT License - feel free to use in personal and commercial projects.
 
 ## 📬 Contact
 
-- **Issues:** [GitHub Issues](https://github.com/YOUR_USERNAME/design-skills-hub/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/YOUR_USERNAME/design-skills-hub/discussions)
+- **Issues:** [GitHub Issues](https://github.com/irismaker/design-skills-hub/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/irismaker/design-skills-hub/discussions)
 
 ---
 
