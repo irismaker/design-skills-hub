@@ -9,16 +9,32 @@ A collection of powerful Claude Code skills for designers and developers to stre
 
 ### Installation
 
-Install all skills at once:
+**Option 1: Direct install from GitHub (recommended)**
+
+Install all skills with one command:
 ```bash
-git clone https://github.com/irismaker/design-skills-hub.git
-cd design-skills-hub
-./install.sh
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/brand-generate && \
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/brand-visual && \
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/branding
 ```
 
 Or install individual skills:
 ```bash
-claude skill install ./skills/brand-generate
+# Brand design system generator
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/brand-generate
+
+# Visual identity guidelines
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/brand-visual
+
+# Brand strategy and positioning
+claude skill install https://github.com/irismaker/design-skills-hub/tree/main/skills/branding
+```
+
+**Option 2: Clone and install locally**
+```bash
+git clone https://github.com/irismaker/design-skills-hub.git
+cd design-skills-hub
+./install.sh
 ```
 
 ### Usage
