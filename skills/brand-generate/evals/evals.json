@@ -1,0 +1,92 @@
+{
+  "skill_name": "brand-generate",
+  "evals": [
+    {
+      "id": 1,
+      "name": "nebula-analytics",
+      "prompt": "I want to create a design system for my startup called Nebula Analytics. Our primary brand color is #7C3AED (purple), domain is nebula-analytics.com, and our slogan is 'Data insights that matter'. Can you help me generate the complete design system?",
+      "expected_output": "Should create a complete brand design system in ./brands/nebula-analytics/ including design-tokens.json with purple color palette, design-system.css with CSS variables, components files, and brand identity outline. The design tokens should include the primary purple color and derived semantic colors.",
+      "files": [],
+      "assertions": [
+        {
+          "name": "design-tokens.json exists",
+          "check": "File ./brands/nebula-analytics/design-tokens.json or similar output location contains valid JSON with color definitions"
+        },
+        {
+          "name": "Primary color matches",
+          "check": "design-tokens.json contains the primary color #7C3AED (case-insensitive)"
+        },
+        {
+          "name": "design-system.css exists",
+          "check": "CSS file exists with CSS custom properties (--color-* variables)"
+        },
+        {
+          "name": "Brand name in config",
+          "check": "Generated files reference 'Nebula Analytics' brand name"
+        },
+        {
+          "name": "Complete file set",
+          "check": "At least 4 key files generated: tokens, CSS, example/demo, and documentation/guideline"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "techflow-quick",
+      "prompt": "Quick one - generate a design system for TechFlow, blue theme (#0EA5E9), use Inter font, output to ./my-brands/techflow",
+      "expected_output": "Should detect quick mode, create config with provided details, and generate design system in the custom output path ./my-brands/techflow with blue color scheme and Inter typography. Should include all standard design system files.",
+      "files": [],
+      "assertions": [
+        {
+          "name": "Custom output path used",
+          "check": "Files were generated in ./my-brands/techflow directory (not default location)"
+        },
+        {
+          "name": "Blue primary color",
+          "check": "design-tokens.json contains #0EA5E9 as primary color"
+        },
+        {
+          "name": "Inter font specified",
+          "check": "Config or CSS mentions Inter font family"
+        },
+        {
+          "name": "Quick mode recognized",
+          "check": "Process didn't require additional interactive prompts (all info was extracted from one line)"
+        },
+        {
+          "name": "Standard files generated",
+          "check": "Core files exist: design-tokens.json, design-system.css"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "greenleaf-nature",
+      "prompt": "Create a brand design system. Brand name is Greenleaf Wellness, I want a nature-inspired green color (#10B981), domain greenleaf-wellness.com, slogan 'Natural health, naturally', and use the 'nature' color naming style.",
+      "expected_output": "Should generate design system with nature-themed semantic color names (derived from the 'nature' naming style), green color palette based on #10B981, and all standard design system artifacts in ./brands/greenleaf-wellness/",
+      "files": [],
+      "assertions": [
+        {
+          "name": "Nature naming style applied",
+          "check": "design-tokens.json uses nature-themed color names (like leaf, forest, moss, sage, etc.) instead of generic names"
+        },
+        {
+          "name": "Green primary color",
+          "check": "Primary color #10B981 present in color definitions"
+        },
+        {
+          "name": "Brand slogan included",
+          "check": "Brand identity or config files contain the slogan 'Natural health, naturally'"
+        },
+        {
+          "name": "Domain in config",
+          "check": "greenleaf-wellness.com domain is mentioned in generated files"
+        },
+        {
+          "name": "Complete design system",
+          "check": "All key artifacts present: tokens, CSS, guidelines, and example/demo"
+        }
+      ]
+    }
+  ]
+}
